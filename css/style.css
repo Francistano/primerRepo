@@ -16,12 +16,25 @@ h1 {
     margin: 15px auto;
 }
 
+.holaMundo:hover {
+    background-color: #7fffd4;
+    transition: .3s;
+}
+
 .flex-index {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.flex-index img {
+    padding: 5px;
+}
+
+.flex-index img:hover {
+    padding: 0;
+    transition: .1s;
+}
 
 /* mobile last */
 @media (max-width: 650px) {
